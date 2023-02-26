@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'snitchaaoskotlin'
+    namespace 'com.example.snitchaaoskotlin'
     compileSdk 33
 
     defaultConfig {
-        applicationId "snitchaaoskotlin"
+        applicationId "com.example.snitchaaoskotlin"
         minSdk 28
         targetSdk 33
         versionCode 1
