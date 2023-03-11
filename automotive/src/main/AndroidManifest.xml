@@ -24,9 +24,9 @@
             android:name="com.google.android.gms.car.application"
             android:resource="@xml/automotive_app_desc"/>
 
-        <!--<meta-data
+        <meta-data
             android:name="androidx.car.app.minCarApiLevel"
-            android:value="1"/>-->
+            android:value="1"/>
 
         <!--<activity
             android:name=".MainSession"
