@@ -8,5 +8,4 @@ class MainSession : Session() {
     override fun onCreateScreen(intent: Intent): Screen {
         return MainScreen(carContext)
     }
-
 }

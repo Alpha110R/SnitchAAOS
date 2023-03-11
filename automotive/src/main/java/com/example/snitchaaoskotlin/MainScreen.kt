@@ -32,12 +32,13 @@ class MainScreen (carContext: CarContext) : Screen(carContext) {
     override fun onGetTemplate(): Template {
         val row = Row.Builder().setTitle("Hello world!").build()
         val pane = Pane.Builder().addRow(row).build()
-        return GridTemplate.Builder()
+        /*return GridTemplate.Builder()
             .setTitle(MyCharSequence("Car Information App"))
         .setSingleList(gridList)
-            .build()
-        /*return PaneTemplate.Builder(pane)
-            .setHeaderAction(APP_ICON)
             .build()*/
+        return PaneTemplate.Builder(pane)
+            .setHeaderAction(APP_ICON)
+            .setTitle(MyCharSequence("Car Information App"))
+            .build()
     }
 }
