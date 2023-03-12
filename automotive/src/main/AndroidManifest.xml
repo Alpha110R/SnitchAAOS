@@ -4,6 +4,7 @@
     package="com.example.snitchaaoskotlin">
 
     <uses-permission android:name="android.car.permission.CAR_SPEED" />
+    <uses-permission android:name="android.car.permission.Car" />
     <uses-permission android:name="android.car.permission.CAR_POWERTRAIN" />
     <uses-permission android:name="android.car.permission.CAR_ENERGY"/>
     <uses-permission android:name="android.car.permission.CAR_ENERGY_PORTS"/>
@@ -27,16 +28,6 @@
         <meta-data
             android:name="androidx.car.app.minCarApiLevel"
             android:value="1"/>
-
-        <!--<activity
-            android:name=".MainSession"
-            android:label="SNITCH"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>-->
 
         <service
             android:name=".CarManager"
